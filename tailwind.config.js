@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "16px",
+      padding: "32px",
+    },
+    fontFamily: {
+      sans: ["ui-sans-serif", "system-ui"],
     },
     extend: {
       colors: {
