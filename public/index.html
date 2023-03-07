@@ -10,23 +10,36 @@
   </head>
   <body>
     <div class="container mx-auto scroll-smooth">
-      <nav class="flex bg-white w-full h-16 justify-between items-center">
-        <div>
-          <!-- <h1 class="text-primary">DKampus</h1> -->
-          <img src="../src/image/dkampus.png" class="w-10 h-10">
+      <header class="flex absolute top-0 left-0 bg-transparent z-10 w-full items-center">
+        <div class="container">
+          <div class="flex items-center justify-between relative">
+            <div class="px-4">
+              <!-- <h1 class="text-primary">DKampus</h1> -->
+              <img src="../src/image/dkampus.png" class="w-10 h-10">
+            </div>
+            <!-- <div class="flex items-center px-4">
+              <button id="hamburger" name="hamburger" type="button" class="block 
+              absolute right-4">
+                <span class="hamburger-line transition origin-top-left"></span>
+                <span class="hamburger-line transition"></span>
+                <span class="hamburger-line transition origin-bottom-left"></span>
+              </button>
+            </div> -->
+            <div>
+              <ul class="flex gap-4">
+                <li><a href="#" class="hover:text-orange-100">Home</a></li>
+                <li><a href="simulation.html" class="hover:text-orange-100">Simulation</a></li>
+                <li><a href="about.html" class="hover:text-orange-100">About</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="outline outline-offset-2 outline-1 py-1 px-2 outline-primary text-primary">Sign In</a>
+            </div>
+          </div>
         </div>
-        <ul class="flex gap-4">
-          <li><a href="#" class="hover:text-orange-100">Home</a></li>
-          <li><a href="simulation.html" class="hover:text-orange-100">Simulation</a></li>
-          <!-- <li><a href="#" class="hover:text-orange-100">FAQ</a></li> -->
-          <li><a href="about.html" class="hover:text-orange-100">About</a></li>
-        </ul>
-        <div class="">
-          <a href="#" class="outline outline-offset-2 outline-1 py-1 px-2 outline-primary text-primary">Sign In</a>
-        </div>
-      </nav>
+      </header>
       <hr class="" />
-      <main class="max-w-full py-6">
+      <main class="max-w-full pt-32">
         <!-- hero section -->
         <section class="flex flex-wrap lg:justify-evenly">
           <div class="w-full px-4 lg:w-1/2 mb-8">
@@ -81,5 +94,7 @@
         <p class="mx-2.5">2022 DKampus | DKampus adalah startup cabang Dcreativ Indonesia.</p>
       </div>
     </div>
+
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
